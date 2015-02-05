@@ -20,4 +20,4 @@ Build with Sailfish SDK Qt Creator. Last version tested: Beta 1412.
 
 ### Contact
 
-starstuffn9@mail.com
+starstuffn9@gmail.com
