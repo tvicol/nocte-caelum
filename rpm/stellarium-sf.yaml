@@ -1,0 +1,33 @@
+Name: stellarium-sf
+Summary: Night sky viewer
+Version: 0.9.1
+Release: 1
+Group: Qt/Qt
+URL: http://example.org/
+License: 'Stellarium for Sailfish and Stellarium N9 - Copyright (C) 2012-2015 Marko
+  Srebre; Stellarium 0.12.4 - Copyright (C) 2004-2013 Fabien Chereau et al; GNU General
+  Public License version 2
+
+'
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |
+  Stellarium for Sailfish is based on desktop version of Stellarium 0.12.4, providing some additional features such as native QML gui, sensor based orientation and customized graphics engine settings. It is still work in progress, but most of the basic things should work just fine.
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+- Qt5Quick
+- Qt5Qml
+- Qt5Core
+- sailfishapp >= 0.0.10
+Requires:
+- sailfishsilica-qt5 >= 0.10.9
+Files:
+- /usr/bin
+- /usr/share/stellarium-sf/data
+- /usr/share/stellarium-sf
+- /usr/share/stellarium-sf/stars
+- /usr/share/applications
+- /usr/share/icons/hicolor/86x86/apps
+- /usr/share/stellarium-sf/qml
+PkgBR: []
